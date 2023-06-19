@@ -1,0 +1,3 @@
+"""
+You can iterate with a for loop over iterators and iterables. Every iterator is also an iterable, but not every iterable is an iterator. E.g. a list is iterable but a list is not an iterator! An iterator can be created from an iterable by using the function 'iter'. To make this possible the class of an object needs either a method '__iter__', which returns an iterator, or a '__getitem__' method with sequential indexes starting with 0.
+"""
