@@ -20,7 +20,7 @@ def diagonalDifference(arr, n):
          
     # Absolute difference of the sums
     # across the diagonals
-    return abs(d1 - d2);
+    return abs(d1 - d2)
     
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')

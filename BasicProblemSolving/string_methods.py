@@ -1,0 +1,1 @@
+print("Shraddha".count('d'))
