@@ -1,8 +1,14 @@
 #https://py.checkio.org/en/mission/between-markers-simplified/
-
+"""
+The find() method is almost the same as the index() method, 
+the only difference is that the index() method raises an exception
+if the value is not found. 
+"""
 def between_markers(text: str, start: str, end: str) -> str:
-    # your code here
-    return ""
+    initial = text.find(start)
+    final = text.find(end)
+    sub_str = text[initial+1:final] # the start marker index we don't want to include
+    return sub_str
 
 
 print("Example:")

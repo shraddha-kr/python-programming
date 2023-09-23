@@ -1,3 +1,5 @@
+#1 - Integers & Strings
+
 https://py.checkio.org/station/initiation/
 
 Quests
