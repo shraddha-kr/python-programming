@@ -1,16 +1,12 @@
 # https://py.checkio.org/en/mission/backward-each-word/
 def backward_string_by_word(text: str) -> str:
-    temp = ""
     if(len(text)>0):
-        # txt_list = text.split()
-        # for i in range(len(txt_list)):
-        #     temp = txt_list[i]
-        #     txt_list[i] = temp[::-1]
-
-        # print("reverse_list: ", txt_list)
-        text = text[::-1]
-        print(text)
-        return text
+        w = text.split(" ")        
+        nw = [i[::-1] for i in w]        
+        # convert list to a string
+        nw = " ".join(nw)
+        
+        return nw
     else:
         return ""
 
