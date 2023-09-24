@@ -8,3 +8,12 @@ for i in mylist[::2]:
 for i in mylist[1::2]:
     print(i)
 # prints 2 4 6 8 10
+# -------------------------------------------------------------------
+# Initializing a string
+test_str = ""
+
+# Checking if the string is empty
+if(test_str.isspace()):
+	print("The string is empty.")
+else:
+	print("The string is not empty.")
