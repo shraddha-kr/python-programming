@@ -9,7 +9,7 @@ def checkio(text: str) -> str:
     # print(lower_str)
 
     # remove spaces & special chars
-    lower_str = "".join(l for l in lower_str if l.isalnum())  
+    lower_str = "".join(l for l in lower_str if l.isalpha())  
     # print(lower_str)
 
     # count the occurences
