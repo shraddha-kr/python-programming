@@ -1,3 +1,7 @@
+# references
+
+https://note.nkmk.me/en/list/
+
 # python-programming
 
 Python To Do's
