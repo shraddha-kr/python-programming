@@ -1,3 +1,4 @@
+# The boolean value of special type None is False
 def f(n):
     return n + 42
 def f(n,m=None):

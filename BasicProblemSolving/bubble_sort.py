@@ -19,7 +19,21 @@
 # print("original list: ",a_list)
 # print("lis after sorting: ",bubbleSort(a_list))
 
+# skip sorting a sorted list
 def bubble_sort(array):
-    swapped = False
+    
     for i in range(len(array)):
+        swapped = False
         for j in range(0, len(array)-i-1):
+            if(array[j] > array[j+1]):
+                tmp = array[j]
+                array[j] = array[j+1]
+                array[j+1] = tmp
+                swapped = True
+        if not swapped:
+            break
+    
+if __name__ == '__main__':
+    data = [-2, 45, 0, 11, -9]
+    bubble_sort(data)
+    print(data)
